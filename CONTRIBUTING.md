@@ -74,7 +74,43 @@ To ensure a smooth and consistent development process, please follow these guide
 - **Keep your commits small and focused** on one task or issue.
 - **Document your code** where necessary.
 - **Ensure your changes pass all tests** before submitting a pull request.
+Here's the updated "Development Guidelines" section with the instruction to create a fork and branch:
 
+
+To contribute code to **Eve**, please follow these steps:
+
+1. **Fork the Repository**: Start by forking the **Eve** repository to your GitHub account. This will create a copy of the repository under your account.
+
+2. **Clone Your Fork**: Clone the forked repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/your-username/eve.git
+   ```
+   Replace `your-username` with your GitHub username.
+
+3. **Create a New Branch**: Before making any changes, create a new branch to keep your work isolated:
+   ```bash
+   git checkout -b your-feature-branch
+   ```
+   Replace `your-feature-branch` with a descriptive name for your branch, such as `add-new-feature` or `fix-bug`.
+
+4. **Make Your Changes**: Implement your changes in the new branch. Make sure to follow the project's coding standards and best practices.
+
+5. **Write Tests**: Ensure that you write tests for any new functionality or bug fixes. This helps maintain the quality and reliability of the codebase.
+
+6. **Commit Your Changes**: Once your changes are ready, commit them to your branch with a clear and descriptive commit message:
+   ```bash
+   git add .
+   git commit -m "Add feature XYZ to improve event creation process"
+   ```
+
+7. **Push Your Branch**: Push the branch to your forked repository on GitHub:
+   ```bash
+   git push origin your-feature-branch
+   ```
+
+8. **Open a Pull Request**: Once your branch is pushed, open a pull request against the `main` branch of the original **Eve** repository. Provide a clear description of the changes you made and reference any related issues.
+
+By following these guidelines, you help ensure a smooth and efficient development process for everyone involved.
 ## Pull Request Process
 
 When you are ready to submit your changes:
